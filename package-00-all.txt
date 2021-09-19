@@ -1,0 +1,233 @@
+################################################################################
+
+### Bootloader
+grub
+efibootmgr
+
+### Kernel
+intel-ucode
+linux
+linux-firmware
+
+### Initramfs, replacement for mkinitcpio
+### Configure this manually
+#booster
+
+### Kernmod -> Filesystems
+ntfs-3g
+exfat-utils
+dosfstools
+mtools
+
+### Kernmod -> Bluetooth
+bluez
+bluez-utils
+
+### Kernmod -> Graphics
+#nvidia
+#nvidia-settings
+#nvidia-prime
+
+### Kernmod -> VMware guest
+#open-vm-tools
+#xf86-video-vmware
+#xf86-input-vmmouse
+#gtkmm3
+
+### Starting point
+base
+
+################################################################################
+
+### AUR: building packages
+base-devel
+git
+
+### AUR: buildtime dependencies for specific packages
+### rust (provides cargo, required by paru)
+### go (ibus-bamboo)
+rust
+go
+
+### It's ubiquitous (and fun)
+python
+
+### Manuals
+man-db
+man-pages
+
+### Text editors
+nano
+vim
+
+### Network
+networkmanager
+network-manager-applet
+crda
+wget
+aria2
+
+################################################################################
+
+### Xorg/Wayland
+xorg
+xorg-apps
+wayland
+
+### Display manager
+gdm
+#lightdm
+#lightdm-gtk-greeter
+#lightdm-gtk-greeter-settings
+
+### XDG User Directories
+xdg-user-dirs
+
+### GNOME
+gnome-shell
+gnome-control-center
+gnome-settings-daemon
+gnome-keyring
+polkit-gnome
+
+### GNOME: Tweaks + Extensions
+gnome-tweaks
+gnome-shell-extensions
+chrome-gnome-shell
+
+### Budgie Desktop
+#budgie-desktop
+#budgie-extras
+
+### XFCE
+#xfce
+#xfce4-goodies
+
+### KDE/Plasma
+#plasma
+#kcmutils
+#-plasma-sdk
+#-discover
+#-bluedevil
+#-oxygen
+#-plasma-vault
+#dolphin
+#kwrite
+#konsole
+#ark
+#kcalc
+#sweeper
+
+# X: disable middle click paste
+xbindkeys
+xsel
+xdotool
+
+# Convert line endings in text files
+dos2unix
+
+# Filesystem change watcher
+inotify-tools
+
+################################################################################
+
+### Files
+#nautilus
+thunar
+#file-roller
+xarchiver
+p7zip
+unrar
+
+# MTP integration
+gvfs-mtp
+
+### Text
+gedit
+gedit-plugins
+
+### Web
+firefox
+epiphany
+
+### Term
+#gnome-terminal
+xfce4-terminal
+
+### Flatpak
+#flatpak
+#gnome-software
+
+### Maintenance
+baobab
+gnome-disk-utility
+gnome-system-monitor
+bleachbit
+gnome-logs
+gparted
+
+### Utils
+evince
+gnome-screenshot
+gnome-calendar
+gnome-clocks
+#gnome-todo
+gnome-calculator
+gnome-characters
+gnome-power-manager
+
+### Multimedia
+lollypop
+celluloid
+eog
+youtube-dl
+#gnome-photos
+#gnome-podcasts
+
+################################################################################
+
+### GTK Themes
+arc-solid-gtk-theme
+
+### Fonts
+noto-fonts
+noto-fonts-cjk
+inter-font
+ttf-joypixels
+
+### Icons
+arc-icon-theme
+#papirus-icon-theme
+
+### Wallpapers
+gnome-backgrounds
+archlinux-wallpaper
+
+################################################################################
+
+### Bash
+bash-completion
+
+### Command line prompt
+powerline
+powerline-fonts
+powerline-vim
+
+### System stats
+neofetch
+htop
+
+### ZSH, because Bash sucks
+zsh
+zsh-completions
+
+### Rainbow Fortune Cow: fortune | cowsay | lolcat
+fortune-mod
+cowsay
+lolcat
+
+### Nice-to-haves
+tree
+xtrlock
+
+################################################################################
